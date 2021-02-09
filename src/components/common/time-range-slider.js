@@ -85,7 +85,8 @@ export default function TimeRangeSliderFactory(
     return (
       <div className="time-range-slider">
         {!hideTimeTitle ? (
-          <div className="time-range-slider__title"
+          <div
+            className="time-range-slider__title"
             style={{
               width: isEnlarged ? `calc(100% - ${animationControlWidth}px)` : '100%'
             }}
@@ -99,7 +100,8 @@ export default function TimeRangeSliderFactory(
           </div>
         ) : null}
         <StyledSliderContainer className="time-range-slider__container" isEnlarged={isEnlarged}>
-          <div className="timeline-container"
+          <div
+            className="timeline-container"
             style={{
               width: isEnlarged ? `calc(100% - ${animationControlWidth}px)` : '100%'
             }}

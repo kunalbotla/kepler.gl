@@ -171,7 +171,6 @@ export type AnimationConfig = {
   currentTime: number | null;
   speed: number;
   isAnimating?: boolean;
-  timeSteps: null;
   // auto generated based on time domain
   defaultTimeFormat?: string | null;
   // custom ui input

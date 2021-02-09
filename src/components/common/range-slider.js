@@ -144,8 +144,8 @@ export default function RangeSliderFactory(RangePlot) {
           this.setState({width});
         }
       }
-    }
-  
+    };
+
     _onChangeInput = (key, e) => {
       this.setState({[key]: e.target.value});
     };
